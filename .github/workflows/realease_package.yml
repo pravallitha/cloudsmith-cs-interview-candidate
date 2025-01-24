@@ -15,7 +15,8 @@ env:
 
 permissions:
   contents: read
-  actions: read
+  actions: write
+  id-token: write
 
 jobs:
   publish:
