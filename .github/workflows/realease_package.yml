@@ -6,7 +6,7 @@ on:
     types:
       - completed
     branches:
-     - master
+     - main
 
 env:
   CLOUDSMITH_NAMESPACE: ${{ vars.CLOUDSMITH_NAMESPACE }}
@@ -18,7 +18,7 @@ permissions:
   actions: write
   id-token: write
 
-  # 
+  # #
 jobs:
   publish:
     runs-on: ubuntu-latest
